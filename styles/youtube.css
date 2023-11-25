@@ -4,7 +4,7 @@
 }
 .videos-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 15px;
     padding: 20px; 
     row-gap: 16px;
@@ -19,6 +19,12 @@
 @media (min-width: 870px) and (max-width: 1124px){
     .master-container .videos-container{
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 869px){
+    .master-container .videos-container{
+        grid-template-columns: 1fr 1fr;
     }
 }
 
