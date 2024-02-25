@@ -53,6 +53,9 @@ section {
 
 .logo {
     cursor: default;
+}
+
+.logo-img {
     display: block;
     margin: 1px 0 2px;
     max-width: 170px;
